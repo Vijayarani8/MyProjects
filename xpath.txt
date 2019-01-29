@@ -1,0 +1,19 @@
+Relative xpath:
+  1. Attribute based xpath
+  syntax://tagName[@attribute='value']
+  Ex: //input[@id='username']
+  syntax://tagName[starts-with(@attribute, 'value')]
+     //input[starts-with(@id, 'user')]
+  syntax://tagName[ends-with(@attribute, 'value')]
+     //input[ends-with(@id, 'name')]
+  syntax://tagName[contains(@attribute, 'value')]
+     //input[contains(@id, 'use')]
+  2. Text based xpath
+  syntax://tagName[text()='value']
+     //h2[text()='Leaftaps Login']
+  syntax://tagName[contains(text(),'value')]
+     //h2[contains(text(),'Leaftaps')] 
+
+
+
+

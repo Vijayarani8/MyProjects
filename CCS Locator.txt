@@ -1,0 +1,32 @@
+CSS Locators
+****************************
+Using ID = tagName#value
+
+Using Class = tagName.value
+
+Using attribute = tagName[attribute=value]
+
+Using Id/Class and attribute =tagName#value[attribute=value] 
+
+Using SubString = 
+
+	Start-with ^=
+	ends-with  $=
+	contains   *=
+
+Using InnerText = tagName:contains('text')
+
+Using Child = Parent to Child  = tagName[attribute=value]>tagName
+
+Sibling:: +tagName
+
+Index:: tagname:nth-of-type(1)
+
+
+
+
+
+
+
+
+ 
